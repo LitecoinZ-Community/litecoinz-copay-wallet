@@ -1,0 +1,9 @@
+www/js/app.js
+www/lib/
+angular-bitauth/angular-bitauth.js
+angular-bitcore-wallet-client/angular-bitcore-wallet-client.js
+bower_components/
+node_modules/
+src/js/appConfig.js
+src/js/externalServices.js
+src/js/translations.js
