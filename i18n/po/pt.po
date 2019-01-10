@@ -1375,11 +1375,6 @@ msgstr "Hardware não conectado."
 msgid "Hardware wallet"
 msgstr "Carteira de hardware"
 
-#: src/js/controllers/create.js:180
-#: src/js/controllers/join.js:145
-msgid "Hardware wallets are not yet supported with Bitcoin Cash"
-msgstr "Carteiras de hardware ainda não são suportadas com Litecoinz"
-
 #: www/views/tab-settings.html:20
 msgid "Help & Support"
 msgstr "Ajuda e suporte"

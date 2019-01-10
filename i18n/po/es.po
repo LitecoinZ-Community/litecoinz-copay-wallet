@@ -1375,11 +1375,6 @@ msgstr "Equipo no conectado."
 msgid "Hardware wallet"
 msgstr "Billetera física"
 
-#: src/js/controllers/create.js:180
-#: src/js/controllers/join.js:145
-msgid "Hardware wallets are not yet supported with Bitcoin Cash"
-msgstr "Billeteras en hardware no son compatibles con LitecoinZ todavía"
-
 #: www/views/tab-settings.html:20
 msgid "Help & Support"
 msgstr "Ayuda & Soporte"

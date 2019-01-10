@@ -1377,11 +1377,6 @@ msgstr "ハードウェアは接続されていません。"
 msgid "Hardware wallet"
 msgstr "ハードウェアウォレット"
 
-#: src/js/controllers/create.js:180
-#: src/js/controllers/join.js:145
-msgid "Hardware wallets are not yet supported with Bitcoin Cash"
-msgstr ""
-
 #: www/views/tab-settings.html:20
 msgid "Help & Support"
 msgstr "ヘルプ＆サポート"

@@ -167,8 +167,6 @@ angular.module('copayApp.controllers').controller('confirmController', function(
       txp: {},
     };
 
-    if (tx.coin && tx.coin == 'bch') tx.feeLevel = 'normal';
-
     // Other Scope vars
     $scope.isCordova = isCordova;
     $scope.isWindowsPhoneApp = isWindowsPhoneApp;
@@ -474,7 +472,7 @@ angular.module('copayApp.controllers').controller('confirmController', function(
 
     // If select another wallet
     tx.coin = wallet.coin;
-    tx.feeLevel = wallet.coin == 'bch' ? 'normal' : configFeeLevel;
+    tx.feeLevel = configFeeLevel;
     usingCustomFee = null;
 
     setButtonText(wallet.credentials.m > 1, !!tx.paypro);
@@ -617,9 +615,6 @@ angular.module('copayApp.controllers').controller('confirmController', function(
   };
 
   $scope.chooseFeeLevel = function(tx, wallet) {
-
-    if (wallet.coin == 'bch') return;
-
     var scope = $rootScope.$new(true);
     scope.network = tx.network;
     scope.feeLevel = tx.feeLevel;

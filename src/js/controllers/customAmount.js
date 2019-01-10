@@ -46,7 +46,7 @@ angular.module('copayApp.controllers').controller('customAmountController', func
       $scope.amountUnitStr = parsedAmount.amountUnitStr;
 
       if (currency != 'LTZ') {
-        // Convert to LTZ or BCH
+        // Convert to LTZ
         var config = configService.getSync().wallet.settings;
         var amountUnit = txFormatService.satToUnit(parsedAmount.amountSat);
         var ltzParsedAmount = txFormatService.parseAmount($scope.wallet.coin, amountUnit, $scope.wallet.coin);
@@ -54,7 +54,7 @@ angular.module('copayApp.controllers').controller('customAmountController', func
         $scope.amountBtc = ltzParsedAmount.amount;
         $scope.altAmountStr = ltzParsedAmount.amountUnitStr;
       } else {
-        $scope.amountBtc = amount; // LTZ or BCH
+        $scope.amountBtc = amount; // LTZ
         $scope.altAmountStr = txFormatService.formatAlternativeStr($scope.wallet.coin, parsedAmount.amountSat);
       }
     });

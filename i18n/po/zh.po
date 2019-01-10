@@ -1375,11 +1375,6 @@ msgstr "硬件未连接"
 msgid "Hardware wallet"
 msgstr "硬件钱包"
 
-#: src/js/controllers/create.js:180
-#: src/js/controllers/join.js:145
-msgid "Hardware wallets are not yet supported with Bitcoin Cash"
-msgstr ""
-
 #: www/views/tab-settings.html:20
 msgid "Help & Support"
 msgstr "帮助与支持"
