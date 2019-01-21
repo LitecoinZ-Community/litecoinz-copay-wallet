@@ -14,7 +14,7 @@ angular.module('copayApp.services').factory('configService', function(storageSer
 
     // Bitcore wallet service URL
     bws: {
-      url: 'https://bws2.litecoinz.org/bws/api',
+      url: 'https://bws.litecoinz.org/bws/api',
     },
 
     download: {

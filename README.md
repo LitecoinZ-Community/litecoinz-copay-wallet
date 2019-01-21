@@ -222,7 +222,7 @@ Since version 1.5, LitecoinZ Wallet uses the root `m/48'` for hardware multisign
 
 ## Bitcore Wallet Service
 
-LitecoinZ Wallet depends on [Bitcore Wallet Service](https://github.com/LitecoinZ-Community/bitcore-wallet-service-ltz) (BWS) for blockchain information, networking and LitecoinZ Wallet synchronization.  A BWS instance can be setup and operational within minutes or you can use a public instance like `https://bws2.litecoinz.org`.  Switching between BWS instances is very simple and can be done with a click from within LitecoinZ Wallet.  BWS also allows LitecoinZ Wallet to interoperate with other wallets like [Bitcore Wallet CLI] (https://github.com/bitpay/bitcore-wallet).
+LitecoinZ Wallet depends on [Bitcore Wallet Service](https://github.com/LitecoinZ-Community/bitcore-wallet-service-ltz) (BWS) for blockchain information, networking and LitecoinZ Wallet synchronization.  A BWS instance can be setup and operational within minutes or you can use a public instance like `https://bws.litecoinz.org`.  Switching between BWS instances is very simple and can be done with a click from within LitecoinZ Wallet.  BWS also allows LitecoinZ Wallet to interoperate with other wallets like [Bitcore Wallet CLI] (https://github.com/bitpay/bitcore-wallet).
 
 ## Hardware Wallet Support
 
